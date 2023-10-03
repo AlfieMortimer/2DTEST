@@ -1,31 +1,34 @@
 fileFormatVersion: 2
-guid: 034c03b7321697b4babb88baffa8b663
+guid: 71587499d8494994c9d9727463f37c64
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6577957371042885331
-    second: antibiotic movement_0
+      213: 7440293823407388486
+    second: C3ZwL_0
   - first:
-      213: -1209995797650025696
-    second: antibiotic movement_1
+      213: -5743151447323106175
+    second: C3ZwL_1
   - first:
-      213: 8191357311183819437
-    second: antibiotic movement_2
+      213: -6295573539285084020
+    second: C3ZwL_2
   - first:
-      213: 6266186816174427256
-    second: antibiotic movement_3
+      213: 2586002713581435285
+    second: C3ZwL_3
   - first:
-      213: -7088992897722498778
-    second: antibiotic movement_4
+      213: -6747881986806009452
+    second: C3ZwL_4
   - first:
-      213: -1148967403920672740
-    second: antibiotic movement_5
+      213: -2843706859509508898
+    second: C3ZwL_5
   - first:
-      213: -6603411656562057919
-    second: antibiotic movement_6
+      213: -7960101213660627483
+    second: C3ZwL_6
   - first:
-      213: -4338691664740698104
-    second: antibiotic movement_7
+      213: 6349273189101425374
+    second: C3ZwL_7
+  - first:
+      213: 4548518880546917898
+    second: C3ZwL_8
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -179,169 +182,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: antibiotic movement_0
+      name: C3ZwL_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 694
-        width: 94
-        height: 288
+        x: 22
+        y: 129
+        width: 22
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d21935f5f9666b4a0800000000000000
-      internalID: -6577957371042885331
+      spriteID: 647fab0efcb314760800000000000000
+      internalID: 7440293823407388486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_1
+      name: C3ZwL_1
       rect:
         serializedVersion: 2
-        x: 203
-        y: 614
-        width: 192
-        height: 263
+        x: 82
+        y: 129
+        width: 27
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 023da5d9b3b353fe0800000000000000
-      internalID: -1209995797650025696
+      spriteID: 184290bef2a3c40b0800000000000000
+      internalID: -5743151447323106175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_2
+      name: C3ZwL_2
       rect:
         serializedVersion: 2
-        x: 393
-        y: 470
-        width: 231
-        height: 233
+        x: 148
+        y: 130
+        width: 23
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da21969231c8da170800000000000000
-      internalID: 8191357311183819437
+      spriteID: c88509da831a1a8a0800000000000000
+      internalID: -6295573539285084020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_3
+      name: C3ZwL_3
       rect:
         serializedVersion: 2
-        x: 661
-        y: 339
-        width: 192
-        height: 263
+        x: 214
+        y: 130
+        width: 24
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87c005aa5b7f5f650800000000000000
-      internalID: 6266186816174427256
+      spriteID: 599b73b44c353e320800000000000000
+      internalID: 2586002713581435285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_4
+      name: C3ZwL_4
       rect:
         serializedVersion: 2
-        x: 971
-        y: 265
-        width: 94
-        height: 288
+        x: 277
+        y: 129
+        width: 26
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 621cbf3c486de9d90800000000000000
-      internalID: -7088992897722498778
+      spriteID: 491bb26b515ba52a0800000000000000
+      internalID: -6747881986806009452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_5
+      name: C3ZwL_5
       rect:
         serializedVersion: 2
-        x: 1183
-        y: 208
-        width: 192
-        height: 263
+        x: 339
+        y: 129
+        width: 30
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c183ececb3c0e00f0800000000000000
-      internalID: -1148967403920672740
+      spriteID: ed418998daf1988d0800000000000000
+      internalID: -2843706859509508898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_6
+      name: C3ZwL_6
       rect:
         serializedVersion: 2
-        x: 1463
-        y: 149
-        width: 231
-        height: 233
+        x: 406
+        y: 129
+        width: 25
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14dd1f0b518fb54a0800000000000000
-      internalID: -6603411656562057919
+      spriteID: 5ed3a9fde1a088190800000000000000
+      internalID: -7960101213660627483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_7
+      name: C3ZwL_7
       rect:
         serializedVersion: 2
-        x: 1764
-        y: 18
-        width: 192
-        height: 263
+        x: 470
+        y: 129
+        width: 24
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 808be251beed9c3c0800000000000000
-      internalID: -4338691664740698104
+      spriteID: ed25d4a53562d1850800000000000000
+      internalID: 6349273189101425374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C3ZwL_8
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 129
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e0821a2d59f1f30800000000000000
+      internalID: 4548518880546917898
       vertices: []
       indices: 
       edges: []
@@ -349,7 +373,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 80b6f235bdef5884a868560e6b8c20dd
     internalID: 0
     vertices: []
     indices: 
@@ -357,14 +381,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      antibiotic movement_0: -6577957371042885331
-      antibiotic movement_1: -1209995797650025696
-      antibiotic movement_2: 8191357311183819437
-      antibiotic movement_3: 6266186816174427256
-      antibiotic movement_4: -7088992897722498778
-      antibiotic movement_5: -1148967403920672740
-      antibiotic movement_6: -6603411656562057919
-      antibiotic movement_7: -4338691664740698104
+      C3ZwL_0: 7440293823407388486
+      C3ZwL_1: -5743151447323106175
+      C3ZwL_2: -6295573539285084020
+      C3ZwL_3: 2586002713581435285
+      C3ZwL_4: -6747881986806009452
+      C3ZwL_5: -2843706859509508898
+      C3ZwL_6: -7960101213660627483
+      C3ZwL_7: 6349273189101425374
+      C3ZwL_8: 4548518880546917898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

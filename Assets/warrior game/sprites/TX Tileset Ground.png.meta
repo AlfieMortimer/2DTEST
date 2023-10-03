@@ -1,31 +1,34 @@
 fileFormatVersion: 2
-guid: 034c03b7321697b4babb88baffa8b663
+guid: c9bcb32c53973644a802de423f9b132d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6577957371042885331
-    second: antibiotic movement_0
+      213: 8652677587666043219
+    second: TX Tileset Ground_0
   - first:
-      213: -1209995797650025696
-    second: antibiotic movement_1
+      213: -7190719572971877601
+    second: TX Tileset Ground_1
   - first:
-      213: 8191357311183819437
-    second: antibiotic movement_2
+      213: 3994209854681936717
+    second: TX Tileset Ground_2
   - first:
-      213: 6266186816174427256
-    second: antibiotic movement_3
+      213: -6045269988124551188
+    second: TX Tileset Ground_3
   - first:
-      213: -7088992897722498778
-    second: antibiotic movement_4
+      213: -8333202958171376367
+    second: TX Tileset Ground_4
   - first:
-      213: -1148967403920672740
-    second: antibiotic movement_5
+      213: -1729818555723472959
+    second: TX Tileset Ground_5
   - first:
-      213: -6603411656562057919
-    second: antibiotic movement_6
+      213: -2094381130127968046
+    second: TX Tileset Ground_6
   - first:
-      213: -4338691664740698104
-    second: antibiotic movement_7
+      213: 1847422516908647653
+    second: TX Tileset Ground_7
+  - first:
+      213: -5568849602974404179
+    second: TX Tileset Ground_8
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -179,13 +182,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: antibiotic movement_0
+      name: TX Tileset Ground_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 694
-        width: 94
-        height: 288
+        x: 0
+        y: 415
+        width: 97
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d21935f5f9666b4a0800000000000000
-      internalID: -6577957371042885331
+      spriteID: 35181d01c6c741870800000000000000
+      internalID: 8652677587666043219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_1
+      name: TX Tileset Ground_1
       rect:
         serializedVersion: 2
-        x: 203
-        y: 614
-        width: 192
-        height: 263
+        x: 127
+        y: 447
+        width: 66
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 023da5d9b3b353fe0800000000000000
-      internalID: -1209995797650025696
+      spriteID: f1b009d75ae653c90800000000000000
+      internalID: -7190719572971877601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_2
+      name: TX Tileset Ground_2
       rect:
         serializedVersion: 2
-        x: 393
-        y: 470
-        width: 231
-        height: 233
+        x: 223
+        y: 447
+        width: 34
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da21969231c8da170800000000000000
-      internalID: 8191357311183819437
+      spriteID: d437eaa53b84e6730800000000000000
+      internalID: 3994209854681936717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_3
+      name: TX Tileset Ground_3
       rect:
         serializedVersion: 2
-        x: 661
-        y: 339
-        width: 192
-        height: 263
+        x: 287
+        y: 479
+        width: 64
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87c005aa5b7f5f650800000000000000
-      internalID: 6266186816174427256
+      spriteID: ce7918a99f2ea1ca0800000000000000
+      internalID: -6045269988124551188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_4
+      name: TX Tileset Ground_4
       rect:
         serializedVersion: 2
-        x: 971
-        y: 265
-        width: 94
-        height: 288
+        x: 0
+        y: 287
+        width: 97
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 621cbf3c486de9d90800000000000000
-      internalID: -7088992897722498778
+      spriteID: 115f5fc8f048a5c80800000000000000
+      internalID: -8333202958171376367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_5
+      name: TX Tileset Ground_5
       rect:
         serializedVersion: 2
-        x: 1183
-        y: 208
-        width: 192
-        height: 263
+        x: 127
+        y: 0
+        width: 385
+        height: 417
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,20 +301,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c183ececb3c0e00f0800000000000000
-      internalID: -1148967403920672740
+      spriteID: 1cf193440337ef7e0800000000000000
+      internalID: -1729818555723472959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_6
+      name: TX Tileset Ground_6
       rect:
         serializedVersion: 2
-        x: 1463
-        y: 149
-        width: 231
-        height: 233
+        x: 0
+        y: 159
+        width: 33
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,20 +322,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14dd1f0b518fb54a0800000000000000
-      internalID: -6603411656562057919
+      spriteID: 2d8f07a65734fe2e0800000000000000
+      internalID: -2094381130127968046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: antibiotic movement_7
+      name: TX Tileset Ground_7
       rect:
         serializedVersion: 2
-        x: 1764
-        y: 18
-        width: 192
-        height: 263
+        x: 63
+        y: 223
+        width: 34
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,8 +343,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 808be251beed9c3c0800000000000000
-      internalID: -4338691664740698104
+      spriteID: 5e4e566bdfc53a910800000000000000
+      internalID: 1847422516908647653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Tileset Ground_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 97
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1b2278ac877b2b0800000000000000
+      internalID: -5568849602974404179
       vertices: []
       indices: 
       edges: []
@@ -356,15 +380,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      antibiotic movement_0: -6577957371042885331
-      antibiotic movement_1: -1209995797650025696
-      antibiotic movement_2: 8191357311183819437
-      antibiotic movement_3: 6266186816174427256
-      antibiotic movement_4: -7088992897722498778
-      antibiotic movement_5: -1148967403920672740
-      antibiotic movement_6: -6603411656562057919
-      antibiotic movement_7: -4338691664740698104
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

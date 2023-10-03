@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: efd82f3cb0794894d8d01a29282a4b52
+guid: 2296538464b840346bfc7c09e50c74d6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3247745021728071467
-    second: antibiotic_0
+      213: 6616589642983038486
+    second: emptry_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -158,22 +158,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: antibiotic_0
+      name: emptry_0
       rect:
         serializedVersion: 2
-        x: 133
-        y: 36
-        width: 94
-        height: 288
+        x: 0
+        y: 0
+        width: 169
+        height: 322
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d0eada2c11bde2d0800000000000000
-      internalID: -3247745021728071467
+      spriteID: 61e588e5939d2db50800000000000000
+      internalID: 6616589642983038486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptry_1
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 209
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d8d75913691534cad386d731988751
+      internalID: 696885810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptry_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 206
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a4b19b0438477409922f3c765d32c7
+      internalID: -1832372624
       vertices: []
       indices: 
       edges: []
@@ -181,7 +223,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 867320731fcab5f4cae895d1339e6c55
     internalID: 0
     vertices: []
     indices: 
@@ -189,7 +231,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      antibiotic_0: -3247745021728071467
+      emptry_1: 696885810
+      emptry_2: -1832372624
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

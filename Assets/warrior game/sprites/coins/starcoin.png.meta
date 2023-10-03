@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: efd82f3cb0794894d8d01a29282a4b52
+guid: cd74fce7d55c79b449c678d3f67ea867
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3247745021728071467
-    second: antibiotic_0
+      213: 5662350499395972196
+    second: starcoin_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -158,13 +158,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: antibiotic_0
+      name: starcoin_0
       rect:
         serializedVersion: 2
-        x: 133
-        y: 36
-        width: 94
-        height: 288
+        x: 0
+        y: 0
+        width: 1200
+        height: 1167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d0eada2c11bde2d0800000000000000
-      internalID: -3247745021728071467
+      spriteID: 46ca04e57c5b49e40800000000000000
+      internalID: 5662350499395972196
       vertices: []
       indices: 
       edges: []
@@ -188,8 +188,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      antibiotic_0: -3247745021728071467
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

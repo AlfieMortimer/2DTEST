@@ -10,10 +10,10 @@ public class PlayerScript : MonoBehaviour
 {
     // Start is called before the first frame update
     Rigidbody2D rb;
-    bool onground = false;
+    bool onground = true;
     Animator anim;
     SpriteRenderer sr;
-    float jumpAmount = 1f;
+    float jumpAmount = 5f;
 
     void Start()
     {
@@ -68,7 +68,7 @@ public class PlayerScript : MonoBehaviour
 
         Color hitColor = Color.white;
         bool onground = false;
-        float laserLength = 0.4f;
+        float laserLength = 0.2f;
         Vector3 rayOffset = new Vector3(0, -1.0f, 0);
 
         RaycastHit2D hit = Physics2D.Raycast(transform.position + rayOffset, Vector2.down, laserLength);
@@ -83,7 +83,7 @@ public class PlayerScript : MonoBehaviour
 
         if (hit.collider != null)
         {
-            print(hit.collider.tag);
+            
             onground = true;
             anim.SetBool("jump", false);
 
