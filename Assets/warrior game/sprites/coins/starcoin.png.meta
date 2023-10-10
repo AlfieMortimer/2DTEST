@@ -188,7 +188,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      starcoin_0: 5662350499395972196
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

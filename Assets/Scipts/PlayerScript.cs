@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 
-
+//dont look here! it is ugly! :3
 
 public class PlayerScript : MonoBehaviour
 {
@@ -13,7 +13,9 @@ public class PlayerScript : MonoBehaviour
     bool onground = true;
     Animator anim;
     SpriteRenderer sr;
-    float jumpAmount = 5f;
+    float jumpAmount = 4.5f;
+    HelperScript helper;
+    LayerMask groundLayerMask;
 
     void Start()
     {
@@ -21,6 +23,8 @@ public class PlayerScript : MonoBehaviour
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        helper = gameObject.AddComponent<HelperScript>();
+        groundLayerMask = LayerMask.GetMask("Ground");
     }
 
     // Update is called once per frame
@@ -30,18 +34,22 @@ public class PlayerScript : MonoBehaviour
         float speed = 1.5f;
 
         anim.SetBool("walk", false);
-
+        anim.speed = 1f;
+      
+        //left 
 
         if ((Input.GetKey("left") || Input.GetKey("a")) == true)
         {
-            print("Player left");
             anim.SetBool("walk", true);
             sr.flipX = true;
             transform.position = new Vector2(transform.position.x + (-speed * Time.deltaTime), transform.position.y);
         }
+
+        //right
+
         else if ((Input.GetKey("right") || Input.GetKey("d")) == true)
         {
-            print("Player right");
+
             anim.SetBool("walk", true);
             transform.position = new Vector2(transform.position.x + (speed * Time.deltaTime), transform.position.y);
             sr.flipX = false;
@@ -51,51 +59,35 @@ public class PlayerScript : MonoBehaviour
 
         if (((Input.GetKey("left") && (Input.GetKey(KeyCode.LeftShift)) || (Input.GetKey("a")) && (Input.GetKey(KeyCode.LeftShift) == true))))
         {
-            speed = 2f;
-            print("Player left");
+            speed = 2.5f;
             anim.SetBool("walk", true);
+            anim.speed = 2;
             transform.position = new Vector2(transform.position.x + (-speed * Time.deltaTime), transform.position.y);
         }
         else if (((Input.GetKey("right") && (Input.GetKey(KeyCode.LeftShift)) || (Input.GetKey("d")) && (Input.GetKey(KeyCode.LeftShift) == true))))
         {
-            speed = 2f;
-            print("Player sprint right");
+            speed = 2.5f;
             anim.SetBool("walk", true);
+            anim.speed = 2;
             transform.position = new Vector2(transform.position.x + (+speed * Time.deltaTime), transform.position.y);
         }
 
         //jump
 
-        Color hitColor = Color.white;
-        bool onground = false;
-        float laserLength = 0.2f;
-        Vector3 rayOffset = new Vector3(0, -1.0f, 0);
-
-        RaycastHit2D hit = Physics2D.Raycast(transform.position + rayOffset, Vector2.down, laserLength);
 
 
-        if (hit.collider != null)
+        if (helper.GroundCheck(onground) == true)
         {
-            hitColor = Color.red;
-        }
-        Debug.DrawRay(transform.position + rayOffset, Vector2.down * laserLength, hitColor);
-
-
-        if (hit.collider != null)
-        {
-            
-            onground = true;
             anim.SetBool("jump", false);
-
         }
 
-        if (onground == false)
+        if (helper.GroundCheck(onground) == false)
         {
             anim.SetBool("jump", true);
         }
 
 
-        if (Input.GetKeyDown(KeyCode.Space) && onground == true)
+        if (Input.GetKeyDown(KeyCode.Space) && helper.GroundCheck(onground) == true)
         {
             rb.AddForce(Vector2.up * jumpAmount, ForceMode2D.Impulse);
         }
