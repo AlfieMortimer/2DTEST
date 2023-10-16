@@ -188,7 +188,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hankHill_0: 7051753888742900624
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
