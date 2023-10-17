@@ -13,9 +13,10 @@ public class PlayerScript : MonoBehaviour
     bool onground = true;
     Animator anim;
     SpriteRenderer sr;
-    float jumpAmount = 4.5f;
+    float jumpAmount = 5f;
     HelperScript helper;
-    LayerMask groundLayerMask;
+    int playerHealth = 5;
+    LayerMask enemyLayerMask;
 
     void Start()
     {
@@ -24,7 +25,7 @@ public class PlayerScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         helper = gameObject.AddComponent<HelperScript>();
-        groundLayerMask = LayerMask.GetMask("Ground");
+        enemyLayerMask = LayerMask.GetMask("Enemy");
     }
 
     // Update is called once per frame
@@ -35,7 +36,7 @@ public class PlayerScript : MonoBehaviour
 
         anim.SetBool("walk", false);
         anim.speed = 1f;
-      
+
         //left 
 
         if ((Input.GetKey("left") || Input.GetKey("a")) == true)
@@ -76,27 +77,43 @@ public class PlayerScript : MonoBehaviour
 
 
 
-        if (helper.GroundCheck(onground) == true)
+        if (helper.GroundCheckP(onground) == true)
         {
             anim.SetBool("jump", false);
         }
 
-        if (helper.GroundCheck(onground) == false)
+        if (helper.GroundCheckP(onground) == false)
         {
             anim.SetBool("jump", true);
         }
 
 
-        if (Input.GetKeyDown(KeyCode.Space) && helper.GroundCheck(onground) == true)
+        if (Input.GetKeyDown(KeyCode.Space) && helper.GroundCheckP(onground) == true)
         {
             rb.AddForce(Vector2.up * jumpAmount, ForceMode2D.Impulse);
         }
 
         //attack
 
-        if(Input.GetKeyDown("r") == true)
+        if (Input.GetKeyDown("r") == true)
         {
             anim.SetTrigger("attack");
+        }
+
+        //health
+
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision != null && collision.gameObject.tag == "Enemy")
+        {
+            playerHealth--;
+            if (playerHealth <= 0)
+            {
+                transform.position = new Vector3(-6.05f, -0.63f, 0);
+                playerHealth = 5;
+            }
+           
         }
     }
 }

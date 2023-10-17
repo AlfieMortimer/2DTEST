@@ -40,7 +40,7 @@ public class HelperScript : MonoBehaviour
         transform.position = new Vector2(transform.position.x + (-2f * Time.deltaTime), transform.position.y);
     }
 
-    public bool GroundCheck(bool onGround)
+    public bool GroundCheckP(bool onGround)
     {
         
 
@@ -132,6 +132,7 @@ public class HelperScript : MonoBehaviour
         return groundHit;
 
     }
+
 
 
 }

@@ -8,7 +8,7 @@ public class Skeleton : MonoBehaviour
     public GameObject player;
     public GameObject enemy;
     SpriteRenderer sr;
-    float speed = 2f;
+    float speed = 1f;
     bool playerClose = false;
     Rigidbody2D rb;
     Animator anim;
@@ -52,12 +52,11 @@ public class Skeleton : MonoBehaviour
     {
         if (collision != null && collision.gameObject.name == "player")
         {
-            anim.SetBool("dead", true);
-            Object.Destroy(GetComponent<Rigidbody>());
-            Destroy(this.gameObject);
-
+            float collisionspeed = speed * -2;
+            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 2, ForceMode2D.Impulse);
+            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.left * collisionspeed, ForceMode2D.Impulse);
+            print("Collided with player");
         }
-        
     }
 }
 
